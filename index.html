@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Rachel Sun — research, writing, projects, and an evolving archive of work and ideas.">
+  <title>Rachel Sun</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="home-body">
+
+<header class="home-header">
+  <a class="home-brand" href="index.html" aria-label="Rachel Sun — home">Rachel Sun</a>
+  <button class="home-menu-button" type="button" aria-expanded="false" aria-controls="home-nav">Menu</button>
+  <nav class="home-nav" id="home-nav" aria-label="Primary navigation">
+    <a href="about.html">About</a>
+    <a href="research.html">Research</a>
+    <a href="writing.html">Writing</a>
+    <a href="projects.html">Projects</a>
+    <a href="now.html">Now</a>
+    <a href="cv.html">CV</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<main class="body-map-home">
+  <section class="body-map-copy" aria-labelledby="home-title">
+    <p class="body-map-kicker">A living archive</p>
+    <h1 id="home-title">Enter<br>through<br>the body.</h1>
+    <p class="body-map-intro">An evolving map of my research, writing, making, and becoming.</p>
+    <p class="body-map-instruction">Hover, focus, or tap a region of the illustration to enter.</p>
+  </section>
+
+  <section class="body-map-art" aria-label="Interactive illustrated navigation">
+    <div class="body-map-frame">
+      <img src="assets/body-map.png" alt="A hand-drawn figure standing inside a lotus beneath two large eyes, surrounded by organic and symbolic forms.">
+
+      <svg class="body-map-overlay" viewBox="0 0 1278 1704" role="img" aria-labelledby="map-title map-desc">
+        <title id="map-title">Interactive body map</title>
+        <desc id="map-desc">Different regions of the illustration open sections of Rachel Sun's website.</desc>
+
+        <a class="map-link" href="research.html" aria-label="Research">
+          <title>Research</title>
+          <ellipse class="hotspot-shape" cx="320" cy="190" rx="220" ry="125"></ellipse>
+          <g class="hotspot-label" transform="translate(320 190)">
+            <rect x="-43" y="-16" width="86" height="32" rx="16"></rect>
+            <text x="0" y="5">Research</text>
+          </g>
+        </a>
+
+        <a class="map-link" href="writing.html" aria-label="Writing">
+          <title>Writing</title>
+          <ellipse class="hotspot-shape" cx="950" cy="180" rx="215" ry="125"></ellipse>
+          <g class="hotspot-label" transform="translate(950 180)">
+            <rect x="-38" y="-16" width="76" height="32" rx="16"></rect>
+            <text x="0" y="5">Writing</text>
+          </g>
+        </a>
+
+        <a class="map-link" href="about.html" aria-label="About">
+          <title>About</title>
+          <ellipse class="hotspot-shape" cx="640" cy="405" rx="165" ry="180"></ellipse>
+          <g class="hotspot-label" transform="translate(640 385)">
+            <rect x="-34" y="-16" width="68" height="32" rx="16"></rect>
+            <text x="0" y="5">About</text>
+          </g>
+        </a>
+
+        <a class="map-link" href="projects.html" aria-label="Projects">
+          <title>Projects</title>
+          <ellipse class="hotspot-shape" cx="640" cy="605" rx="205" ry="150"></ellipse>
+          <g class="hotspot-label" transform="translate(640 610)">
+            <rect x="-42" y="-16" width="84" height="32" rx="16"></rect>
+            <text x="0" y="5">Projects</text>
+          </g>
+        </a>
+
+        <a class="map-link" href="now.html" aria-label="Now">
+          <title>Now</title>
+          <ellipse class="hotspot-shape" cx="640" cy="965" rx="185" ry="300"></ellipse>
+          <g class="hotspot-label" transform="translate(640 940)">
+            <rect x="-27" y="-16" width="54" height="32" rx="16"></rect>
+            <text x="0" y="5">Now</text>
+          </g>
+        </a>
+
+        <a class="map-link" href="cv.html" aria-label="CV">
+          <title>CV</title>
+          <ellipse class="hotspot-shape" cx="640" cy="1480" rx="150" ry="165"></ellipse>
+          <g class="hotspot-label" transform="translate(640 1480)">
+            <rect x="-24" y="-16" width="48" height="32" rx="16"></rect>
+            <text x="0" y="5">CV</text>
+          </g>
+        </a>
+
+        <a class="map-link" href="contact.html" aria-label="Contact">
+          <title>Contact</title>
+          <ellipse class="hotspot-shape" cx="1120" cy="525" rx="130" ry="200"></ellipse>
+          <g class="hotspot-label" transform="translate(1120 520)">
+            <rect x="-39" y="-16" width="78" height="32" rx="16"></rect>
+            <text x="0" y="5">Contact</text>
+          </g>
+        </a>
+      </svg>
+    </div>
+
+    <div class="body-map-mobile-links" aria-label="Illustration links">
+      <a href="research.html"><span>Eyes / left</span>Research</a>
+      <a href="writing.html"><span>Eyes / right</span>Writing</a>
+      <a href="about.html"><span>Face</span>About</a>
+      <a href="projects.html"><span>Hands</span>Projects</a>
+      <a href="now.html"><span>Torso</span>Now</a>
+      <a href="cv.html"><span>Feet</span>CV</a>
+      <a href="contact.html"><span>Blue form</span>Contact</a>
+    </div>
+  </section>
+</main>
+
+<footer class="home-footer">
+  <span>© <span data-year></span> Rachel Sun</span>
+  <span>Illustration by Rachel Sun</span>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
